@@ -1,3 +1,5 @@
+import LogRocket from 'logrocket';
+LogRocket.init('jy9rz7/minha-despesa');
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
