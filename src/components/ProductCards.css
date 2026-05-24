@@ -1,0 +1,142 @@
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: box-shadow var(--transition), transform var(--transition);
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.nome {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.1px;
+    line-height: 1.3;
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 2px 7px;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.info {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.preco {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+}
+
+.mercado {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+}
+
+.obs {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-style: italic;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11.5px;
+    color: var(--text-muted);
+}
+
+.acoes {
+    display: flex;
+    gap: 4px;
+    opacity: 0;
+    transition: opacity var(--transition);
+}
+
+.card:hover .acoes {
+    opacity: 1;
+}
+
+.btnAcao {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    transition: background var(--transition), color var(--transition);
+}
+
+.btnAcao:hover {
+    background: var(--bg-hover);
+    color: var(--text-primary);
+}
+
+.btnExcluir:hover {
+    background: #FEE2E2;
+    color: #991B1B;
+    border-color: #FECACA;
+}
