@@ -1,4 +1,4 @@
-import styles from './FilterBar.css';
+import styles from '../components/FilterBar.module.css';
 
 export default function FilterBar({
   filtroCategoria, setFiltroCategoria,

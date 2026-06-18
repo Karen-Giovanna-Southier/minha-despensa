@@ -1,6 +1,6 @@
 import { STATUS_CONFIG } from '../utils/dados';
 import ProductCard from './ProductCard';
-import styles from './Column.css';
+import styles from '../components/Column.module.css';
 
 export default function Column({ status, produtos, onEditar, onExcluir, onAdicionar }) {
   const config = STATUS_CONFIG[status];

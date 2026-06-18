@@ -1,5 +1,5 @@
 import { formatarPreco } from '../utils/dados';
-import styles from './StatsCards.css';
+import styles from '../components/StatsCards.module.css';
 
 const cards = [
   {

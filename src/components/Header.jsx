@@ -1,4 +1,4 @@
-import styles from './Header.css';
+import styles from '../components/Header.module.css';
 
 export default function Header({ busca, setBusca, onAdicionar }) {
   return (

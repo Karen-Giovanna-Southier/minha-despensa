@@ -1,5 +1,5 @@
 import { formatarPreco, formatarData, PRIORIDADE_CONFIG } from '../utils/dados';
-import styles from './ProductCard.css';
+import styles from '../components/ProductCard.module.css';
 
 export default function ProductCard({ produto, onEditar, onExcluir }) {
   const prioridade = PRIORIDADE_CONFIG[produto.prioridade];
